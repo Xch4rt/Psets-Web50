@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        label{
+            font-size: .82em;
+        }
+        span{
+            color: #777;
+            font-size: .7em;
+        }
+        .nav_ a{
+            display: block; 
+            text-decoration: none; 
+            color: #000; 
+            padding: 0.01% 10px 5px 10px; 
+            font-size: 13px; 
+            cursor: pointer;
+            
+        }
+    </style>
+</head>
+<body>
+    <header class="header_">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo_bar">
+
+        <nav class="nav_">
+            <a href="index.html" >Google Search</a>
+        </nav>
+    </header>
+
+    <h2 class="advanced">Advanced Search</h2>
+    <hr/>
+    <form action="https://google.com/search" class="advanced_form">
+        <label for="" class="header-label">Find pages with...</label>
+        <span class="header-span">To do this in search box</span>
+
+        <div class="form-control">
+            <label for="as_q">All these words: </label>
+            <input type="text" name="as_q" class="input_">
+        </div>
+        <span>Type the important words: <kbd>tri-colour rat terrier</kbd></span>
+    
+        <div class="form-control">
+            <label for="as_epq">This exact word or phrase:</label>
+            <input type="text" name="as_epq" class="input_">
+        </div>
+        <span>Put exact words in quotes: <kbd>"rat terrier"</kbd></span>
+
+        <div class="form-control">
+            <label for="as_oq">Any of these words:</label>
+            <input type="text" name="as_oq" class="input_">
+        </div>
+        <span>Type OR between all the words you want: <kbd>miniature OR standar</kbd></span>
+
+        <div class="form-control">
+            <label for="as_eq">None of these words:</label>
+            <input type="text" name="as_oq"class="input_">
+        </div>
+        <span>Put a minus sign just before words that you don't want: <kbd>-rodent, -"Jack Russell"</kbd></span>
+
+        <div class="control-submit">
+            <input type="submit" value="Advanced Search" class="submit_"> 
+        </div>
+    </form>
+
+    <div class="footer">
+        <p>You can also...</p>
+        <div class="links_f">
+            <a href="#">Find pages that are similar to a URL</a>
+
+            <a href="#">Search pages that you've visited</a>
+
+            <a href="#">Customise your search settings</a>
+        </div>
+    </div>
+
+    <footer style="position: absolute; bottom: 0; width: 100%;">
+        <h4>Nicaragua</h4>
+        <div class="links">
+            <div class="link1">
+             <a href="#">About Google</a>
+             <a href="#">Advertising</a>
+             <a href="#">Business</a>
+             <a href="#">How Search works</a>
+            </div>
+            
+            
+         </div>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
